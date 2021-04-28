@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: UIView!
     
     let textArr = ["DAILY","MATCHES","MANAGER","STATS"]
+    
+    
     let imgArr = [UIImage(named: "newsPaper"),UIImage(named: "golden cup"),UIImage(named: "golden cup"),UIImage(named: "hat")]
     
     var cellID = "GridCollectionViewCell"
